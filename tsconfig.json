@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "lib": ["dom", "es2015"],
+    "sourceRoot": "src",
+    "outDir": "lib_js",
+    "types": [
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "lib_js",
+    "scripts",
+    "test"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "aot"
+  }
+}
